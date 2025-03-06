@@ -14,8 +14,8 @@ public class mataKuliahMain_01 {
         System.out.println("Sebelum Perubahan SKS");
         System.out.println("=================================");
         mk1.tampilkanInfo();
-        
-        System.out.println("\nMengubah jumlah SKS menjadi 4...\n");
+
+        System.out.println("Mengubah jumlah SKS menjadi 4...");
         mk1.ubahSKS(4);
 
         System.out.println("=================================");
