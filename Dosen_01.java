@@ -13,6 +13,9 @@ public class Dosen_01 {
         this.jenjangPendidikan = jenjangPendidikan;
         this.prodi = prodi;
     }
+    public String toString() {
+        return "NIDN: " + nidn + ", Nama: " + nama + ", Prodi: " + prodi + ", Pendidikan: " + jenjangPendidikan;
+    }
     public void tampilkanInfo(){
         System.out.println("NIDN: " + nidn);
         System.out.println("Nama: " + nama);
